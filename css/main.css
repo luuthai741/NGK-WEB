@@ -1,0 +1,61 @@
+
+.container-header{
+   height:64px;
+    width: 100%;
+    background: rgba(18, 16, 14, 0.6);
+    backdrop-filter: blur(24px);
+    position: absolute;
+}
+
+.header-logo{
+    height: 117px;
+    width: 169px;
+    border-radius: 0px;
+    background: #28231E;
+    position: absolute;
+    left: 50%;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-nav-bar{
+    position: absolute;
+    width: 100%;
+}
+
+.header-nav-bar-wrap{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin: 23px 23px 23px 0;
+}
+
+.header-nav-bar-wrap > ul{
+    display: flex;
+    list-style: none;
+}
+
+.header-search{
+    display: flex;
+    border-bottom: 2px solid #2C2927;
+   
+}
+
+.header-search-input{
+    background: none;
+    border: none;
+    padding: 2px 0;
+}
+
+.banner{
+   
+}
+.banner-backgroun-image{
+    height: 999px;
+    background-image: url(../image/Imagebanner-ngk.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}

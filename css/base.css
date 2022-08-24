@@ -1,0 +1,16 @@
+:root{
+    --title-color: linear-gradient(90deg, #825430 -97.04%, #EAC0A0 167.91%, #825430 477.64%);
+    --text-color: #ECDDCD;
+    --white-color: #ffffff;
+    --black-color: #000000;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
