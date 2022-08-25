@@ -1,5 +1,5 @@
 /* header */
-.container-header{
+.header{
    height:64px;
     width: 100%;
     background: rgba(18, 16, 14, 0.6);
@@ -44,7 +44,7 @@
 }
 
 .header-nav-bar-wrap .header-navbar-list > li > a{
-    font-family: 'Prompt', sans-serif;
+    font-family: var(--font-text);
 font-style: normal;
 font-weight: 500;
 font-size: 12px;
@@ -78,7 +78,7 @@ color: #BA8E6C;
 }
 
 .header-search-input  > input::placeholder{
-    font-family: 'Prompt', sans-serif;
+    font-family: var(--font-text);
 font-style: normal;
 font-weight: 500;
 font-size: 12px;
@@ -118,7 +118,7 @@ opacity: 0.2;
 }
 
 .banner-navbar-list > li > a{
-    font-family: 'Prompt', sans-serif;
+    font-family: var(--font-text);
 font-style: normal;
 font-weight: 500;
 font-size: 16px;
@@ -141,7 +141,7 @@ color: var(--text-color);
 }
 
 .banner-inner-title > span:first-child{
-    font-family: 'Playfair Display', serif;
+    font-family: var(--font-title);
 font-style: normal;
 font-weight: 400;
 font-size: 48px;
@@ -154,8 +154,8 @@ background: var(--title-color);
 }
 
 .banner-inner-title > span:last-child{
-    font-family: 'Playfair Display', serif;
-    font-style: normal;
+    font-family: var(--font-title);
+    font-style: italic;
     font-weight: 400;
     font-size: 48px;
     line-height: 115.3%;
@@ -172,7 +172,7 @@ background: var(--title-color);
 }
 
 .banner-inner-text > p{
-    font-family: 'Prompt', sans-serif;
+    font-family: var(--font-text);
 font-style: normal;
 font-weight: 400;
 font-size: 16px;
@@ -200,7 +200,7 @@ border-radius: 4px;
 border: 1px solid #BA8E6C
 }
 .more-event > a{
-    font-family: 'Prompt', sans-serif;
+    font-family: var(--font-text);
 font-style: normal;
 font-weight: 700;
 font-size: 14px;
@@ -226,7 +226,7 @@ background: linear-gradient(90deg, #825430 -97.04%, #EAC0A0 167.91%, #825430 477
 }
 
 .detail > a{
-    font-family: 'Prompt', sans-serif;
+    font-family: var(--font-text);
     font-style: normal;
 font-weight: 700;
 font-size: 14px;
@@ -234,13 +234,7 @@ line-height: 24px;
 text-align: center;
 letter-spacing: 2px;
 text-transform: uppercase;
-
-/* Black 1 */
-
 color: #12100E;
-
-/* Button/Text */
-
 text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.1);
 }
 
@@ -249,5 +243,23 @@ text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.1);
     background-image: url(../image/Imagebanner-ngk.png);
     background-repeat: no-repeat;
     background-size: cover;
+    
+}
+
+/* about-us */
+.content-about{
+    padding: 190px 0;
+    background: #12100E;
+}
+
+.content-about-wrap{
+    margin: 30px 0;
+   
+}
+.img-about-1{
+   
+}
+
+.img-about-2{
     
 }

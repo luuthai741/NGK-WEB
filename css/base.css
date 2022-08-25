@@ -3,6 +3,8 @@
     --text-color: #ECDDCD;
     --white-color: #ffffff;
     --black-color: #000000;
+    --font-text: 'Prompt', sans-serif;
+    --font-title: 'Playfair Display', serif;
 }
 
 *{
@@ -10,6 +12,8 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+
 
 html{
     scroll-behavior: smooth;
